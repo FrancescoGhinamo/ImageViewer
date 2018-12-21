@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace ImageViewer
 {
-    public partial class Form1 : Form
+    public partial class ImageViewer : Form
     {
-        public Form1()
+        public ImageViewer()
         {
             InitializeComponent();
+        }
+
+        private void ImageViewer_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
